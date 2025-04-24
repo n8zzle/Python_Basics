@@ -1,8 +1,7 @@
 # Variables
 x = 5
-message = "Hello, World !"
-
 print("Variable x:", x)
+message = "Hello, World !"
 print("Variable message:", message)
 
 # If you want to specify the data type of a variable
@@ -33,7 +32,6 @@ else:
 
 # Case-Sensitive - this will create two variables
 number = 4
-name = "Sally"
-
 print(number)
+name = "Sally"
 print(name)
