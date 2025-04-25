@@ -33,3 +33,14 @@ txt = f"My name is Igors, I am {age}"
 print(txt)
 # Is ok , but better to use f-string
 print("My name is Igors, I am", age)
+
+# Text Characters
+# \' - Single Quote
+# \\ - Backslash
+# \n - New Line
+# \r - Carriage Return
+# \t - Tab
+# \b - Backspace
+# \f - Form Feed
+# \ooo - Octal value
+# \xhh - Hex value
