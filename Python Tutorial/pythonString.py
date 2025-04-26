@@ -40,16 +40,94 @@ print("My name is Igors, I am", age)  # Is ok , but better to use f-string
 # \xhh - Hex value
 
 # String Methods
-test = "test String, to test Methods"
-print(test.capitalize())  # Converts the first character to upper case
-print(test.casefold())  # Converts string into lower case
-print(test.center(100))  # Returns a centered string
-# Returns the number of times a specified value occurs in a string
-print(test.count("test"))
-print(test.encode())  # Returns an encoded version of the string
-# Returns true if the string ends with the specified value
-print(test.endswith("Methods"))
-print(test.expandtabs())  # Sets the tab size of the string
-# Searches the string for a specified value and returns the position of where it was found
-print(test.find("String"))
-print(test.format())  # Formats specified values in a string
+
+# Capitalize method - Capitalize the first letter in this sentence
+txt = "hello, and welcome to my world"
+x = txt.capitalize()
+print("Capitalize method: " + x)
+
+# Casefold method - Make the string lower case.
+txt = "Hello , And Welcome To My World"
+x = txt.casefold()
+print("Casefold method: " + x)
+
+# Center method - taking up the space
+txt = "banana"
+x = txt.center(30)
+print("Center method: " + x)
+
+# Count method - Return the number of times the value appears in the string
+txt = "I love apples, appe are my favorite fruit."
+x = txt.count("apple")  # Returns as number
+print("Count method: " + str(x))
+
+# Encode method - UTF-8 encode the string
+txt = "My name is Ståle"
+x = txt.encode()
+print("Encode method: ", x)
+
+# Endswith method - Check if the string ends with punctuation sign (.)
+txt = "Hello , welcome to my world."
+x = txt.endswith(".")
+print("Endswith method: ", x)
+
+# Expandtabs method - Set the tab size
+txt = "H\te\tl\tl\to"
+x = txt.expandtabs(5)
+print("Expandtabs method: ", x)
+
+# Find Method - finds the specified value. Returns -1 if the value is not found
+txt = "Hello , welcome to my world."
+x = txt.find("welcome")
+print("Find method: ", x)
+
+# Format method - Insert specidied values inside the string
+txt = "For only {price} euro!"
+print("Format method: ", txt.format(price=49))
+
+# Index method - find the first occurrence of the value
+txt = "Hello, welcome to my world."
+x = txt.index("welcome")
+print("Index method: ", x)
+
+# Join method - takes all items in an iterable and joins them into one string.
+myTuple = ("John", "Peter", "Vicky", "Igors", "Max", "Ilze")
+x = "|".join(myTuple)
+print("Join method: ", x)
+
+# ljust method - will left align the string
+txt = "banana"
+x = txt.ljust(20)
+print("ljust method: ", x, "is my favorite fruit.")
+
+# lower method - returns lower case string
+txt = "Hello my FRIENDS"
+x = txt.lower()
+print("Lower method: ", x)
+
+# lstrip method - removes any leading characters (space is the default leading character)
+# In this example it will remove spaces from the left side
+txt = "      banana      "
+print("lstrip method: ", txt.lstrip(), "is my favorite")
+
+# maketrans method
+txt = "Hello Sam!"
+mytable = str.maketrans("S", "P")
+print("Maketrans method:", txt.translate(mytable))
+
+# Partition method
+# Search for the word "bananas", and return a tuple with three elements:
+# 1 - everything before the "match"
+# 2 - the "match"
+# 3 - everything after the "match"
+txt = "I could eat bananas all day"
+x = txt.partition("bananas")
+print("Partition method: ", x)
+print("Partition method [everything before the match]: ", x[0])
+print("Partition method [match]: ", x[1])
+print("Partition method [everything after the match]: ", x[2])
+
+# Replace method
+txt = "i like bananas"
+x = txt.replace("bananas", "apples")
+print("Replace method: ", x)
