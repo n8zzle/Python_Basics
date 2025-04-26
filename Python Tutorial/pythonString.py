@@ -131,3 +131,24 @@ print("Partition method [everything after the match]: ", x[2])
 txt = "i like bananas"
 x = txt.replace("bananas", "apples")
 print("Replace method: ", x)
+
+# Split method - split a string into a list.
+txt = "welcome to the jungle"
+x = txt.split()
+print("Split method: ", x)
+
+# title method - returns each word first letter in upper case
+txt = "Welcome to my world"
+x = txt.title()
+print("Title method: ", x)
+
+# Translate method - returns a string where some specified characters are replaced with the character described in a dictionary, or in a mapping table.
+# Use a dictionary with ascii codes to replace 83 (S) with 80 (P):
+mydict = {83: 80}
+txt = "Hello Sam!"
+print("Translate method: ", txt.translate(mydict))
+
+# Zfill method - adds zeros (0) at the beginning of the string, until it reaches the specified length.
+txt = "50"
+x = txt.zfill(10)
+print("Zfill method: ", x)
