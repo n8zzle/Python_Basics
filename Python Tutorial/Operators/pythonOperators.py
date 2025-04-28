@@ -1,4 +1,3 @@
-# TODO: Should write here about all Python Operators
 # Operators are used to perform opertaion on variables and values.
 
 # Python divides the operators in the following groups:
