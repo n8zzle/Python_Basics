@@ -9,6 +9,8 @@ It is intended as a quick reference to help refresh your memory on Python syntax
 
 Whenever you need a quick reminder about how something works in Python, browse through these files to find concise, practical examples.
 
+## Progress
+
 Link: <https://www.w3schools.com/python/python_lists_comprehension.asp>
 
 Next Lesson: Update Tuples
