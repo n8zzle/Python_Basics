@@ -11,8 +11,8 @@ Whenever you need a quick reminder about how something works in Python, browse t
 
 ## Progress
 
-Link: <https://www.w3schools.com/python/python_lists_comprehension.asp>
+Link: <https://www.w3schools.com/python/python_sets.asp>
 
-Next Lesson: Update Tuples
+Next Lesson: Python Sets
 
-File : pythonUpdateTuples.py
+File : pythonSets.py
