@@ -11,8 +11,8 @@ Whenever you need a quick reminder about how something works in Python, browse t
 
 ## Progress
 
-Link: <https://www.w3schools.com/python/python_sets.asp>
+Link: <https://www.w3schools.com/python/python_dictionaries.asp>
 
-Next Lesson: Python Sets
+Next Lesson: Python Dictionaries
 
-File : pythonSets.py
+File : Dictionaries.py
